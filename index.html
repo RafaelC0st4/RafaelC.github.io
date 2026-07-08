@@ -16,17 +16,16 @@
 body{
     .language-container{
     position:fixed;
-    top:20px;
-    right:20px;
-    z-index:1000;
-}
-    background:#ececec;
+    bottom:20px;
+    left:0;
+    width:100%;
     display:flex;
     justify-content:center;
-    padding:40px;
+    z-index:1000;
 }
 
 .language-btn{
+    display:inline-block;
     background:#2563eb;
     color:white;
     padding:12px 20px;
@@ -35,15 +34,12 @@ body{
     font-weight:bold;
     box-shadow:0 5px 15px rgba(0,0,0,.2);
     transition:.3s;
-    display:inline-block;
 }
 
 .language-btn:hover{
     background:#1d4ed8;
     text-decoration:none;
-    transform:translateY(-2px);
 }
-
 .cv{
     width:100%;
     max-width:1000px;
@@ -187,36 +183,6 @@ a:hover{
     <div class="language-container">
     <a href="ingles.html" class="language-btn">English Version</a>
     </div>
-
-   .language-container{
-    position:fixed;
-    bottom:20px;
-    left:0;
-    width:100%;
-    display:flex;
-    justify-content:center;
-    z-index:1000;
-    }
-
-    .language-btn{
-    display:inline-block;
-    background:#2563eb;
-    color:white;
-    padding:12px 20px;
-    border-radius:8px;
-    text-decoration:none;
-    font-weight:bold;
-    box-shadow:0 5px 15px rgba(0,0,0,.2);
-    transition:.3s;
-}
-
-.language-btn:hover{
-    background:#1d4ed8;
-    text-decoration:none;
-}
-
-}
-
 </style>
 
 </head>
